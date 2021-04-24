@@ -9,4 +9,11 @@ Created for 6th lab. 
 Для отримання фото та гіфок котів аутентифікація не потрібна. Якщо ж ви хочете отримати інформацію про породи, то необхідно мати API key.
 Спершу треба зареєструватися за посиланням https://thecatapi.com/. Api key буде віправлено на адресу вказану при реєстрації.
 
-![ApiKey](/images/apiKey.png)
+![ApiKey](/images/apiKey.PNG)
+
+Api key потрібно передавати в якості header. 
+headers[“x-api-key”] = "ABC123"
+Також можливо передавати прямо в рядку https://thecatapi.com/v1/images?api_key=ABC123.
+
+
+
