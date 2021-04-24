@@ -24,4 +24,16 @@ https://api.thecatapi.com/v1/images/upload - приклад запиту для 
 https://api.thecatapi.com/v1/images - приклад запиту для отримання своїх завантажених фото котів. (GET)
 https://api.thecatapi.com/v1/images/{image_id} - приклад запиту для видалення фото, яке ми завантажили. (DELETE)
 
-Спробуємо отримати випадкове фото кота для прикладу. **Request** -  
+Спробуємо отримати випадкове фото кота для прикладу. **Request** -  https://api.thecatapi.com/v1/images/search 
+**Response** - [
+  {
+    "breeds": [],
+    "height": 343,
+    "id": "bhn",
+    "url": "https://cdn2.thecatapi.com/images/bhn.jpg",
+    "width": 500
+  }
+]Як бачимо, ми отримали посилання на фото з котом.
+
+## Отримання інформації про конкретну породу
+Для того, щоб отримати інформацію про конкретну породу треба виконати запит 
